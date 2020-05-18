@@ -21,6 +21,12 @@ print("  * Se pueden utilizar", num_colores, "colores")
 # Debería haber tantos pares en la lista como arcos en el grafo
 adyacencias = [(0,1),(0,5),(1,3),(2,3),(2,4),(2,5),(3,4),(4,5)]
 
+# El incremento 1 con adyacencia también entre los nodos 1-2
+#adyacencias.append((1,2))
+
+# El incremento 2 con adyacencia entre los nodos 0-2
+#adyacencias.append((0,2))
+
 print("  * Se han indicado", len(adyacencias), "arcos en el grafo\n")
 
 # Se obtienen los valores de penalización a aplicar según las restricciones
